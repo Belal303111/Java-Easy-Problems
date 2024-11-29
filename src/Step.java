@@ -7,12 +7,11 @@ public class Step {
         int [] a=new int[n];
         for(int i=0;i<n;i++)
             a[i]=s.nextInt();
-        int k=0,i;
-        for(i=0;i<n-1;i++)
+        long k=0;
+        for(int i=0;i<n-1;i++)
         {
             if(a[i]>a[i+1]) {
                 int f = a[i] - a[i + 1];
-              //  System.out.println(f);
                 a[i + 1] = a[i];
                 k =k+ f;
             }
