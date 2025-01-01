@@ -1,4 +1,5 @@
 import java.util.Scanner;
+ import java.util.HashMap;
     public class Anagrams {
         public static int target(String s,char x)
         {
@@ -10,8 +11,9 @@ import java.util.Scanner;
         static boolean isAnagram(String a, String b) {
             a=a.toUpperCase();
             b=b.toUpperCase();
-            if (a.length() != b.length()) 
-               return false;
+            if (a.length() != b.length()) return false;
+            System.out.println("A: "+a);
+            System.out.println("B: "+b);
         for(int i=0;i<a.length();i++)
         {
             char c =a.charAt(i);  //current character
