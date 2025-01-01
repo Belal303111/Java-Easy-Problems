@@ -37,10 +37,9 @@ public class Solution {
             .map(Integer::parseInt)
             .collect(toList());
 
-        List<Integer> result = AveryBigSum.compareTriplets(a, b);
 
         bufferedWriter.write(
-            result.stream()
+            Result.stream()
                 .map(Object::toString)
                 .collect(joining(" "))
             + "\n"

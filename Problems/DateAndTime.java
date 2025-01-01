@@ -25,7 +25,11 @@ public class Main {
 
         int year = Integer.parseInt(firstMultipleInput[2]);
 
+<<<<<<< HEAD
         String res = AveryBigSum.findDay(month, day, year);
+=======
+        String res = Result.findDay(month, day, year);
+>>>>>>> 65c803b6a17433c9801d2718ee585c103566bac0
 
         bufferedWriter.write(res);
         bufferedWriter.newLine();

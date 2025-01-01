@@ -4,7 +4,6 @@ import java.util.stream.*;
 import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
 
-class AveryBigSum {
 
     /*
      * The 'aVeryBigSum' function below.
@@ -12,8 +11,9 @@ class AveryBigSum {
      * The function is expected to return a LONG_INTEGER.
      * The function accepts LONG_INTEGER_ARRAY ar as parameter.
      */
-
+public class AVeryBigSum{
     public static long aVeryBigSum(List<Long> ar) {
+
     long sum=0;
     int i=0;
     while(i<ar.size())
@@ -26,7 +26,6 @@ class AveryBigSum {
 
 }
 
-public class AVeryBigSum {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
@@ -37,7 +36,6 @@ public class AVeryBigSum {
             .map(Long::parseLong)
             .collect(toList());
 
-        long result = AveryBigSum.aVeryBigSum(ar);
 
         bufferedWriter.write(String.valueOf(result));
         bufferedWriter.newLine();

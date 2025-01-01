@@ -1,5 +1,15 @@
 import java.io.*;
+<<<<<<< HEAD
 import java.util.*;
+=======
+import java.math.*;
+import java.security.*;
+import java.text.*;
+import java.util.*;
+import java.util.concurrent.*;
+import java.util.function.*;
+import java.util.regex.*;
+>>>>>>> 65c803b6a17433c9801d2718ee585c103566bac0
 import java.util.stream.*;
 import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
@@ -41,7 +51,11 @@ public class Solution {
             .map(Integer::parseInt)
             .collect(toList());
 
+<<<<<<< HEAD
         AveryBigSum.plusMinus(arr);
+=======
+        Result.plusMinus(arr);
+>>>>>>> 65c803b6a17433c9801d2718ee585c103566bac0
 
         bufferedReader.close();
     }
