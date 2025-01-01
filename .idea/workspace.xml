@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b99eeac-9efc-4536-9a53-8b5617cdee6a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/DivZon problems/src/Anagrams.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DivZon problems/src/CoutntPairs.java" beforeDir="false" />
-    </list>
+    <list default="true" id="6b99eeac-9efc-4536-9a53-8b5617cdee6a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/DivZon problems" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
   "lastFilter": {
